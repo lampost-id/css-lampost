@@ -6,6 +6,11 @@
 }
 
 .prestasi-terbaru a {
+  flex: 1;
+  text-align: center;
+}
+
+.prestasi-terbaru a {
   text-decoration: none;
   padding: 10px;
 }
