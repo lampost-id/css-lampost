@@ -16,7 +16,7 @@
 .lingkar-bg {
     position: absolute;
     inset: -10px;
-   background-image: url('/index/image/axecutive.png');
+   background-image: url('https://lampost.co/index/image/axecutive.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
