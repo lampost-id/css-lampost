@@ -1,6 +1,5 @@
 .prestasi-terbaru {
   display: flex;
-  gap: 5px;
   border-bottom: 1px solid #e5e7eb;
   margin-bottom: 10px;
 }
