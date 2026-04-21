@@ -1,0 +1,292 @@
+.container {
+    padding: 10px calc((100% - 1200px) / 2);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.berita {
+    width: 63%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.iklan-halaman {
+    flex: 1;
+    position: sticky;
+    top: 10px;
+    padding: 10px;
+}
+
+.isi-berita a {
+    text-decoration: none;
+    color: #DC0000;
+}
+
+.judul-berita {
+    color: #333;
+}
+
+.gambar-berita {
+    width: 100%;
+    height: auto;
+}
+
+.terbaru {
+    margin-top: 10px;
+}
+
+.terbaru a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.item-microweb {
+    display: flex;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.berita-microweb {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.judul-terbaru {
+    font-size: 15px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.img-terbaru-teknokrat {
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+}
+
+.tanggal-berita {
+    font-size: 12px;
+    color: #777;
+}
+
+.isi-berita {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+.baca-selengkapnya {
+    color: #DC0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.baca-berita {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DC0000;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.baca-berita p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.baca-berita i {
+    font-size: 18px;
+}
+
+.editor {
+    font-size: 12px;
+    color: #45b4f5;
+}
+
+.iklan-parent {
+    width: 30%;
+    position: sticky;
+    top: 10px;
+}
+
+.ai-tags {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ai-tags a {
+    color: #DC0000;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.meta-editor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eef1f4;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.nama-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#editor {
+  font-size: 14px;
+  font-weight: 600;
+  color: #DC0000;
+}
+
+#tanggal,
+#jam {
+  font-size: 12px;
+  color: #555;
+}
+
+.share-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.share-icons a,
+.share-icons button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+#fbShare { background: #1877f2; }
+#waShare { background: #25D366; }
+#tgShare { background: #229ED9; }
+#xShare { background: #000; }
+#copyLink { background: #666; }
+
+.share-icons i {
+  font-size: 16px;
+}
+
+.baca-juga {
+  border-left: 4px solid #DC0000;
+  padding: 10px 15px;
+  background: #f4f6f8;
+  margin: 15px 0;
+}
+
+.baca-juga .label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.baca-juga a {
+  color: #DC0000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.baca-juga a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   🔥 PDF DOWNLOAD BUTTON
+========================= */
+
+.pdf-download-wrapper {
+  margin: 20px 0;
+}
+
+.btn-pdf-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all .25s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-pdf-download:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+}
+
+.btn-pdf-download:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        padding: 20px;
+    }
+
+    .berita {
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .iklan-halaman {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .detail-text h2 {
+        font-size: 15px;
+    }
+
+    .detail-text p {
+        font-size: 12px;
+    }
+    
+    .meta-editor {
+        display: grid;
+        gap: 10px;
+    }
+
+}
