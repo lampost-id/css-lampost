@@ -367,6 +367,14 @@
     margin-bottom: 15px;
   }
 
+  .prestasi-terbaru {
+    gap:5px;
+  }
+
+  .judul-unila {
+    font-size: 13px;
+  }
+
   .prestasi-terbaru a {
     padding: 0;
   }
