@@ -76,7 +76,7 @@
   box-sizing: border-box;
   position: relative;
   contain: layout paint;
-  height: calc(100vh * 0.60);
+  max-height: 400px;
   margin-top: 10px;
 }
 
