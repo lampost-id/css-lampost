@@ -78,6 +78,10 @@
     word-break: normal;
 }
 
+.isi-berita h2 {
+    color: #000;
+}
+
 .baca-selengkapnya {
     color: #DC0000;
     text-decoration: none;
