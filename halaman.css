@@ -78,9 +78,6 @@
     hyphens: auto;
     overflow-wrap: break-word;
     word-break: normal;
-}
-
-.isi-berita p {
     line-height: 1.5;
 }
 
@@ -95,29 +92,29 @@
     font-weight: bold;
 }
 
-        .baca-berita {
-            all: unset;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: #DC0000;
-            border-radius: 50px;
-            padding: 8px 10px;
-            cursor: pointer;
-            color: #fff;
-            gap: 5px;
-            margin-bottom: 8px;
-        }
+.baca-berita {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DC0000;
+    border-radius: 50px;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: #fff;
+    gap: 5px;
+    margin-bottom: 8px;
+}
 
-        .baca-berita span {
-            margin: 0;
-            font-size: 13px;
-            font-weight: bold;
-        }
+.baca-berita span {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
 
-        .baca-berita i {
-            font-size: 16px;
-        }
+.baca-berita i {
+    font-size: 16px;
+}
 
 .editor {
     font-size: 12px;
@@ -153,85 +150,99 @@
 }
 
 .meta-editor {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #eef1f4;
-  padding: 12px 15px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef1f4;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .nama-editor {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 #editor {
-  font-size: 14px;
-  font-weight: 600;
-  color: #DC0000;
+    font-size: 14px;
+    font-weight: 600;
+    color: #DC0000;
 }
 
 #tanggal,
 #jam {
-  font-size: 12px;
-  color: #555;
+    font-size: 12px;
+    color: #555;
 }
 
 .share-icons {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .share-icons a,
 .share-icons button {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: #fff;
-  text-decoration: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
 }
 
-#fbShare { background: #1877f2; }
-#waShare { background: #25D366; }
-#tgShare { background: #229ED9; }
-#xShare { background: #000; }
-#copyLink { background: #666; }
+#fbShare {
+    background: #1877f2;
+}
+
+#waShare {
+    background: #25D366;
+}
+
+#tgShare {
+    background: #229ED9;
+}
+
+#xShare {
+    background: #000;
+}
+
+#copyLink {
+    background: #666;
+}
 
 .share-icons i {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .baca-juga {
-  border-left: 4px solid #DC0000;
-  padding: 10px 15px;
-  background: #f4f6f8;
-  margin: 15px 0;
+    border-left: 4px solid #DC0000;
+    padding: 10px 15px;
+    background: #f4f6f8;
+    margin: 15px 0;
 }
 
 .baca-juga .label {
-  display: block;
-  font-weight: bold;
-  font-size: 14px;
-  margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .baca-juga a {
-  color: #DC0000;
-  text-decoration: none;
-  font-size: 14px;
+    color: #DC0000;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .baca-juga a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* =========================
@@ -239,32 +250,32 @@
 ========================= */
 
 .pdf-download-wrapper {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .btn-pdf-download {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 18px;
-  background: linear-gradient(135deg, #ef4444, #b91c1c);
-  color: #fff;
-  border-radius: 10px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  transition: all .25s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    background: linear-gradient(135deg, #ef4444, #b91c1c);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all .25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .btn-pdf-download:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, #dc2626, #991b1b);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #dc2626, #991b1b);
 }
 
 .btn-pdf-download:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 @media (max-width: 768px) {
@@ -299,7 +310,7 @@
     .detail-text p {
         font-size: 12px;
     }
-    
+
     .meta-editor {
         display: grid;
         gap: 10px;
