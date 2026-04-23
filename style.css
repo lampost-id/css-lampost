@@ -742,7 +742,6 @@ h2.detail-title,
     background: none !important;
     -webkit-text-fill-color: initial !important;
     padding-left: 0 !important;
-    color: #000;
 }
 
 .hero-right h2::before,
