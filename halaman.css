@@ -24,7 +24,9 @@
 }
 
 .judul-berita {
-    color: #333;
+    color: #000;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
 }
 
 .gambar-berita {
@@ -71,6 +73,7 @@
 }
 
 .isi-berita {
+    text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
     overflow-wrap: break-word;
@@ -272,7 +275,7 @@
     }
 
     .isi-berita {
-        text-align: justify;
+        text-align: left;
     }
 
     .iklan-halaman {
