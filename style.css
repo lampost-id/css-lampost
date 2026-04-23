@@ -374,6 +374,10 @@ body {
     scrollbar-width: none;
 }
 
+.sidebar h2 {
+    color: #000;
+}
+
 .sidebar::-webkit-scrollbar {
     display: none;
 }
