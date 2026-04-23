@@ -532,6 +532,17 @@ h2 .card-text {
     margin-bottom: 10px;
 }
 
+.iklan-beranda {
+  display: block;
+  margin: 12px 0;
+}
+
+.iklan-beranda img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
 @media (max-width: 847px) {
     .berita-beranda {
         width: 60%;
