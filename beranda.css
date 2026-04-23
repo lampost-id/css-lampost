@@ -554,6 +554,10 @@ h3.news-title,
         width: 230px;
     }
 
+    .iklan-pengumuman {
+        display: none;
+    }
+
     .news-desc {
         display: none;
     }
