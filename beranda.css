@@ -534,14 +534,16 @@ h2 .card-text {
 
 .iklan-beranda,
 .iklan-header,
-.iklan-detail {
+.iklan-detail,
+.sidebar-kategori-detail {
     display: block;
     margin: 12px 0;
 }
 
 .iklan-beranda img,
 .iklan-header img,
-.iklan-detail img {
+.iklan-detail img,
+.sidebar-kategori-detail img{
     width: 100%;
     height: auto;
     border-radius: 6px;
