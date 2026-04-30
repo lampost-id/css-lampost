@@ -784,41 +784,36 @@ h2.detail-title::before,
 }
 
 .load-more {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2d3748;
+  background: #fff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 
+    0 4px 10px rgba(0, 0, 0, 0.205),
+    inset 0 1px 0 rgba(255,255,255,0.6);
     margin-top: 15px;
-    height: 30px;
-    width: 250px;
-    border: 1px solid #e5e7eb;
-    background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #6b7280;
-    font-size: 14px;
 }
 
-/* garis kiri & kanan di luar border */
-.load-more::before,
-.load-more::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 100px;
-    height: 1px;
-    background-color: #e5e7eb;
+.load-more:hover {
+  background: #fff;
+  transform: translateY(-2px);
+  box-shadow: 
+    0 6px 14px rgba(0,0,0,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.7);
 }
 
-/* garis kiri */
-.load-more::before {
-    right: 100%;
-    margin-right: 10px;
-}
-
-/* garis kanan */
-.load-more::after {
-    left: 100%;
-    margin-left: 10px;
+.load-more:active {
+  transform: translateY(0);
+  box-shadow: 
+    0 2px 6px rgba(0,0,0,0.06),
+    inset 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .berita-dua {
