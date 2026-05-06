@@ -1,5 +1,6 @@
 /* GRID (2 kolom tetap) */
-.pariwisata {
+.pariwisata,
+.kolom-pakar {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
