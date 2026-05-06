@@ -278,6 +278,71 @@
     cursor: not-allowed;
 }
 
+.berita-saluran {
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1;
+    margin: 30px 0;
+    box-shadow: 0 20px 40px rgb(0 0 0 / 5%);
+
+}
+
+.berita-saluran::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 20px;
+
+    background: conic-gradient(#DC0000,
+            transparent,
+            #DC0000);
+
+    animation: spinBorder 6s linear infinite;
+
+    z-index: 0;
+}
+
+.berita-saluran::after {
+    content: "";
+    position: absolute;
+    inset: 2px;
+
+    background: #fff;
+    border-radius: 18px;
+
+    z-index: 1;
+}
+
+.berita-saluran * {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes spinBorder {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.berita-saluran p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.berita-saluran p a {
+    text-decoration: none;
+    color: #DC0000;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .container {
         display: block;
@@ -314,6 +379,10 @@
     .meta-editor {
         display: grid;
         gap: 10px;
+    }
+
+    .berita-saluran p {
+        font-size: 13px;
     }
 
 }
