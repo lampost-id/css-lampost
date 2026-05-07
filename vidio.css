@@ -157,6 +157,11 @@
             right: 10px;
         }
 
+        .video-info h3 {
+            font-size: 22px;
+            font-weight: 900;
+        }
+
         /* RESPONSIVE */
         @media(max-width:845px) {
 
