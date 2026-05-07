@@ -1,6 +1,6 @@
-/* WRAPPER */
+ /* WRAPPER */
         .video-wrapper {
-            margin: 40px auto;
+            margin: 60px auto;
             background: #000;
             border-radius: 8px;
             padding: 35px;
@@ -181,9 +181,38 @@
                 font-size: 40px;
             }
 
+            /* MOBILE SCROLL */
+            .video-track {
+                overflow-x: auto !important;
+                overflow-y: hidden;
+
+                transform: none !important;
+
+                scroll-snap-type: x mandatory;
+
+                -webkit-overflow-scrolling: touch;
+
+                scrollbar-width: none;
+
+                width: auto !important;
+            }
+
+            .video-track::-webkit-scrollbar {
+                display: none;
+            }
+
+            /* 2 VIDEO */
             .video-card {
                 flex: 0 0 50%;
                 max-width: 50%;
+
+                scroll-snap-align: start;
+            }
+
+            /* BUTTON HIDE */
+            .video-prev,
+            .video-next {
+                display: none;
             }
 
         }
