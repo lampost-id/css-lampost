@@ -133,8 +133,8 @@
             top: 50%;
             transform: translateY(-50%);
 
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
 
             border: none;
             border-radius: 50%;
@@ -142,7 +142,7 @@
             background: #fff;
             color: #000;
 
-            font-size: 28px;
+            font-size: 20px;
             cursor: pointer;
             z-index: 20;
 
