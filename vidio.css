@@ -171,6 +171,7 @@
 
             .video-wrapper {
                 flex-direction: column;
+             margin: none;
             }
 
             .video-info {
