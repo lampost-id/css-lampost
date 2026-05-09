@@ -74,12 +74,11 @@
   }
   
   .post-item {
-    display: block;
+    display: grid;
   }
 
   .post-thumb {
     width: 100%;
-    height: 50%;
   }
 
   .post-title {
