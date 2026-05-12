@@ -89,4 +89,8 @@
   .post-title {
     font-size: 13px;
   }
+
+  #kolom-pakar {
+  height : auto;
+}
 }
