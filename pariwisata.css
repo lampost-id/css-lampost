@@ -16,6 +16,10 @@
   color: #000;
 }
 
+#kolom-pakar {
+  height : 100px;
+}
+
 /* HILANGKAN UNDERLINE SEMUA KONDISI */
 .post-item,
 .post-item:hover,
