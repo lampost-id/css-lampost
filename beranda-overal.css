@@ -251,6 +251,7 @@
 
 .news {
   padding: 10px calc((100% - 1200px) / 2);
+  margin-bottom: -20px;
 }
 
 .news-padding {
@@ -498,6 +499,7 @@
 
   .news {
     padding: 10px;
+    margin-bottom: 0;
   }
 
   .news-ticker {
