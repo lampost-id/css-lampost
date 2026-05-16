@@ -966,6 +966,101 @@ p.judul.unila {
   cursor: pointer;
 }
 
+@media (prefers-color-scheme: dark){
+
+    body,
+    .container,
+    .wrapper,
+    .content,
+    .card,
+    .footer,
+    .input-menu,
+    #input-sidebar,
+    #btn-sidebar-search,
+    .search-input,
+    .search-beranda,
+    .navbar-sub ul li .sub-menu{
+        background:#111 !important;
+        color:#f1f1f1 !important;
+    }
+    
+    .navbar-main,
+    .navbar-sub,
+    .sidebar {
+        background:#212121  !important;
+    }
+
+    h1,
+    h3,
+    h5,
+    h6,
+    p,
+    span,
+    a,
+    li,
+    .portal-feed-title,
+    .kriminal-side-title,
+    .kriminal-headline-desc,
+    .kriminal-headline-title,
+    .haji-headline-title,
+    .haji-side-title,
+    .haji-headline-desc,
+    .portal-feed-title,
+    .populer-card-title,
+    .populer-side-title,
+    .populer-hero-title,
+    .populer-hero-desc
+    {
+        color:#f1f1f1 !important;
+    }
+    
+    .widget-item h3,
+    a.link-judul{
+        color:#000000  !important;
+    }
+    
+    
+    .lingkar-text h4{
+        color:#000 !important;
+    }
+
+    img{
+        opacity:.95;
+    }
+    
+    .jam-atas {
+        color: #fff;
+    }
+    
+    .kategori,
+    .btn-breaking {
+        color:#DC0000 !important;
+    }
+    
+    .editor, .editor-kkn
+     {
+        color: #45b4f5 !important;
+    }
+    
+    .login {
+        border: 1px solid #fff;
+    }
+    
+    .sidebar h2 {
+        color: #fff;
+    }
+    
+    .alink-icon {
+        color:#ff3c00 !important;
+    }
+    
+    .popup-close {
+        color:#000 !important;
+        background: #fff !important;
+    }
+    
+    }
+
 @media (max-width: 847px) {
     .logo ul {
         display: none;
