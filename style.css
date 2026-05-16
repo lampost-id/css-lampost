@@ -1175,6 +1175,10 @@ body.dark-mode a.link-judul {
     color: #000 !important;
 }
 
+body.dark-mode .alink-icon {
+    color:#ff3c00 !important;
+}
+
 @media (max-width: 847px) {
     .logo ul {
         display: none;
