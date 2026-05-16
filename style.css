@@ -1060,7 +1060,8 @@ body.dark-mode .navbar-sub ul li .sub-menu,
 body.dark-mode  .filter-berita,
 body.dark-mode  .filter-berita select, .filter-berita input[type="date"],
 body.dark-mode .mgid,
-body.dark-mode ..item-radio 
+body.dark-mode .item-radio,
+body.dark-mode .music-card
 {
     background:#111 !important;
     color:#f1f1f1 !important;
