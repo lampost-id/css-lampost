@@ -1163,6 +1163,12 @@ body.dark-mode .search-modal-form input{
     color: #fff;
 }
 
+body.dark-mode .lingkar-text h4,
+body.dark-mode .widget-item h3,
+body.dark-mode a.link-judul {
+    color: #000 !important;
+}
+
 @media (max-width: 847px) {
     .logo ul {
         display: none;
