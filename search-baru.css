@@ -1,0 +1,219 @@
+/* =========================================
+SEARCH MODAL
+========================================= */
+
+.search-modal{
+    position:fixed;
+    top:120px;
+    left:0;
+    width:100%;
+    height:calc(100% - 120px);
+    z-index:9999;
+
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:.25s ease;
+}
+
+.search-modal.active{
+    opacity:1;
+    visibility:visible;
+}
+
+/* =========================================
+OVERLAY
+========================================= */
+
+.search-modal-overlay{
+    position:absolute;
+    inset:0;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+}
+
+/* =========================================
+BOX
+========================================= */
+
+.search-modal-box{
+    position:relative;
+
+    width:94%;
+    max-width:720px;
+
+    margin-top:16px;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    box-shadow:
+        0 10px 35px rgba(0,0,0,.12);
+
+    transform:translateY(-20px);
+
+    transition:.3s ease;
+}
+
+.search-modal.active .search-modal-box{
+    transform:translateY(0);
+}
+
+/* =========================================
+CLOSE BUTTON
+========================================= */
+
+.search-modal-close{
+    position:absolute;
+
+    top:-10px;
+    right:-10px;
+
+    width:32px;
+    height:32px;
+
+    border:none;
+    outline:none;
+
+    border-radius:50%;
+
+    background:#f1f1f1;
+
+    color:#111;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,.12);
+
+    transition:.2s ease;
+
+    z-index:10;
+}
+
+.search-modal-close:hover{
+    background:#d70000;
+    color:#fff;
+}
+
+/* =========================================
+FORM
+========================================= */
+
+.search-modal-form{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+/* =========================================
+INPUT
+========================================= */
+
+.search-modal-form input{
+    flex:1;
+
+    height:60px;
+
+    border:1px solid #e5e5e5;
+
+    border-radius:14px;
+
+    padding:0 20px;
+
+    font-size:16px;
+
+    background:#fafafa;
+
+    color:#111;
+
+    outline:none;
+
+    transition:.25s ease;
+}
+
+.search-modal-form input:focus{
+    border-color:#d70000;
+    background:#fff;
+}
+
+/* =========================================
+BUTTON
+========================================= */
+
+.search-modal-form button{
+    width:60px;
+    height:60px;
+
+    border:none;
+    outline:none;
+
+    border-radius:14px;
+
+    background:#d70000;
+
+    color:#fff;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    flex-shrink:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    transition:.2s ease;
+}
+
+.search-modal-form button:hover{
+    opacity:.92;
+    transform:scale(1.03);
+}
+
+/* =========================================
+MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+    .search-modal-box{
+        width:96%;
+        padding:18px;
+        border-radius:16px;
+    }
+
+    .search-modal-form{
+        gap:10px;
+    }
+
+    .search-modal-form input{
+        height:54px;
+        font-size:14px;
+        padding:0 16px;
+    }
+
+    .search-modal-form button{
+        width:54px;
+        height:54px;
+        font-size:18px;
+    }
+
+}
