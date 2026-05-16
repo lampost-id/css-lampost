@@ -966,6 +966,10 @@ p.judul.unila {
   cursor: pointer;
 }
 
+:root{
+    color-scheme: light dark;
+}
+
 @media (max-width: 847px) {
     .logo ul {
         display: none;
