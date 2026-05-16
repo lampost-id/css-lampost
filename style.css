@@ -966,6 +966,203 @@ p.judul.unila {
   cursor: pointer;
 }
 
+.darkmode-item{
+    list-style:none;
+    padding: 15px 25px;
+    border-bottom: 1px solid #e5e7eb;
+    align-items: center;
+}
+
+.darkmode-toggle{
+    width:85px;
+    height:35px;
+    border-radius:50px;
+    border:2px solid #fff;
+    background:#000;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    transition:.4s ease;
+    padding:0;
+}
+
+.toggle-icons{
+    width:100%;
+    height:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 14px;
+}
+
+.toggle-icons i{
+    color:#fff;
+    font-size:16px;
+    z-index:2;
+}
+
+.toggle-circle{
+    position:absolute;
+    top:50%;
+    right:1px;
+    transform:translateY(-50%);
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    border:2px solid #fff;
+    background:#000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.4s ease;
+    z-index:3;
+}
+
+.toggle-circle i{
+    font-size:14px;
+}
+
+body.light-mode{
+    background:#ffffff;
+    color:#111111;
+}
+
+body.light-mode .darkmode-toggle{
+    background:#ffffff;
+    border-color:#555555;
+}
+
+body.light-mode .toggle-circle{
+    left:1px;
+    right:auto;
+    background:#ffffff;
+    border-color:#555555;
+}
+
+body.light-mode .toggle-icons i,
+body.light-mode .toggle-circle i{
+    color:#000;
+}
+
+body.dark-mode,
+body.dark-mode .container,
+body.dark-mode .wrapper,
+body.dark-mode .content,
+body.dark-mode .card,
+body.dark-mode .footer,
+body.dark-mode .input-menu,
+body.dark-mode #input-sidebar,
+body.dark-mode #btn-sidebar-search,
+body.dark-mode .search-input,
+body.dark-mode .search-beranda,
+body.dark-mode .navbar-sub ul li .sub-menu,
+body.dark-mode  .filter-berita,
+body.dark-mode  .filter-berita select, .filter-berita input[type="date"]
+{
+    background:#111 !important;
+    color:#f1f1f1 !important;
+}
+
+/* =========================================
+NAVBAR
+========================================= */
+
+body.dark-mode .navbar-main,
+body.dark-mode .navbar-sub,
+body.dark-mode .sidebar,
+body.dark-mode .load-more {
+    background:#212121 !important;
+}
+
+/* =========================================
+TEXT
+========================================= */
+
+body.dark-mode h1,
+body.dark-mode h3,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode a,
+body.dark-mode li,
+body.dark-mode small,
+body.dark-mode strong,
+body.dark-mode .portal-feed-title,
+body.dark-mode .kriminal-side-title,
+body.dark-mode .kriminal-headline-desc,
+body.dark-mode .kriminal-headline-title,
+body.dark-mode .haji-headline-title,
+body.dark-mode .haji-side-title,
+body.dark-mode .haji-headline-desc,
+body.dark-mode .populer-card-title,
+body.dark-mode .populer-side-title,
+body.dark-mode .populer-hero-title,
+body.dark-mode .populer-hero-desc{
+    color:#f1f1f1 !important;
+}
+
+/* =========================================
+SPECIAL COLOR
+========================================= */
+
+body.dark-mode .kategori,
+body.dark-mode .btn-breaking,
+body.dark-mode .baca-juga a,
+body.dark-mode .berita-saluran p a{
+    color:#DC0000 !important;
+}
+
+body.dark-mode .editor,
+body.dark-mode .editor-kkn{
+    color:#45b4f5 !important;
+}
+
+/* =========================================
+COMPONENT
+========================================= */
+
+body.dark-mode .sidebar h2{
+    color:#fff;
+}
+
+body.dark-mode .login{
+    border:1px solid #fff;
+}
+
+body.dark-mode .popup-close{
+    background:#fff !important;
+    color:#000 !important;
+}
+
+body.dark-mode .baca-juga,
+body.dark-mode .berita-saluran::after{
+    background:#212121;
+}
+
+/* =========================================
+IMAGE
+========================================= */
+
+body.dark-mode img{
+    opacity:.95;
+}
+
+body.dark-mode .jam-atas {
+    color: #fff;
+}
+
+body.dark-mode .search-modal-overlay {
+    background: rgb(14 14 14 / 75%);
+}
+
+body.dark-mode .search-modal-box,
+body.dark-mode .search-modal-form input{
+    background: #272727;
+    color: #fff;
+}
+
 @media (max-width: 847px) {
     .logo ul {
         display: none;
