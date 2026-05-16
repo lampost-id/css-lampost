@@ -1058,7 +1058,9 @@ body.dark-mode .search-input,
 body.dark-mode .search-beranda,
 body.dark-mode .navbar-sub ul li .sub-menu,
 body.dark-mode  .filter-berita,
-body.dark-mode  .filter-berita select, .filter-berita input[type="date"]
+body.dark-mode  .filter-berita select, .filter-berita input[type="date"],
+body.dark-mode .mgid,
+body.dark-mode ..item-radio 
 {
     background:#111 !important;
     color:#f1f1f1 !important;
@@ -1177,6 +1179,10 @@ body.dark-mode a.link-judul {
 
 body.dark-mode .alink-icon {
     color:#ff3c00 !important;
+}
+
+body.dark-mode .load-more {
+    color: #979797;
 }
 
 @media (max-width: 847px) {
