@@ -970,6 +970,7 @@ p.judul.unila {
     list-style:none;
     padding: 15px 25px;
     border-bottom: 1px solid #e5e7eb;
+    border-top: 1px solid #e5e7eb;
     align-items: center;
 }
 
