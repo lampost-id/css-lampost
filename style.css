@@ -1061,7 +1061,8 @@ body.dark-mode  .filter-berita select, .filter-berita input[type="date"],
 body.dark-mode .mgid,
 body.dark-mode .item-radio,
 body.dark-mode .music-card,
-body.dark-mode .card-detail
+body.dark-mode .card-detail,
+body.dark-mode .player-card 
 {
     background:#111 !important;
     color:#f1f1f1 !important;
@@ -1107,7 +1108,9 @@ body.dark-mode .haji-headline-desc,
 body.dark-mode .populer-card-title,
 body.dark-mode .populer-side-title,
 body.dark-mode .populer-hero-title,
-body.dark-mode .populer-hero-desc{
+body.dark-mode .populer-hero-desc,
+body.dark-mode .time,
+body.dark-mode .artist {
     color:#f1f1f1 !important;
 }
 
