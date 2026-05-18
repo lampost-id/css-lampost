@@ -983,7 +983,7 @@ p.judul.unila {
     overflow:hidden;
     cursor:pointer;
     transition:.4s ease;
-    padding:0;
+    padding:0 5px;
 }
 
 .toggle-icons{
@@ -993,7 +993,6 @@ p.judul.unila {
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:0 14px;
 }
 
 .toggle-icons i{
