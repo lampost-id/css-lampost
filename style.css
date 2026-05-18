@@ -1122,7 +1122,8 @@ body.dark-mode .baca-juga a,
 body.dark-mode .berita-saluran p a,
 body.dark-mode #editor,
 body.dark-mode .ai-tags a,
-body.dark-mode .button {
+body.dark-mode .button,
+body.dark-mode .isi-berita a{
     color:#DC0000 !important;
 }
 
