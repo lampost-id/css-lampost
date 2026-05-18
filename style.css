@@ -1061,7 +1061,8 @@ body.dark-mode  .filter-berita,
 body.dark-mode  .filter-berita select, .filter-berita input[type="date"],
 body.dark-mode .mgid,
 body.dark-mode .item-radio,
-body.dark-mode .music-card
+body.dark-mode .music-card,
+body.dark-mode .card-detail
 {
     background:#111 !important;
     color:#f1f1f1 !important;
@@ -1120,7 +1121,8 @@ body.dark-mode .btn-breaking,
 body.dark-mode .baca-juga a,
 body.dark-mode .berita-saluran p a,
 body.dark-mode #editor,
-body.dark-mode .ai-tags a {
+body.dark-mode .ai-tags a,
+body.dark-mode .button {
     color:#DC0000 !important;
 }
 
