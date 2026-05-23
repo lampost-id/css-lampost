@@ -287,7 +287,6 @@ body {
 
 .detail-text {
     flex: 1;
-    max-height: 300px;
     overflow-y: auto;
     padding-right: 10px;
     scrollbar-width: none;
