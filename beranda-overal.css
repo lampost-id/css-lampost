@@ -220,6 +220,7 @@
   height: 250px;
   object-fit: cover;
   justify-items: center;
+  border-radius: 15px;
 }
 
 .info-microweb {
