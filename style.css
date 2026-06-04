@@ -677,8 +677,9 @@ body {
 }
 
 .iklan-gambar {
-    padding: 10px calc((100% - 1200px) / 2);
-    margin-top: 10px;
+    max-width: calc(100% - (100% - 1200px));
+    padding: 15px 10px;
+    margin: auto;
 }
 
 .gambar {
