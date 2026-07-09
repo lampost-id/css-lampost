@@ -1062,7 +1062,8 @@ body.dark-mode .mgid,
 body.dark-mode .item-radio,
 body.dark-mode .music-card,
 body.dark-mode .card-detail,
-body.dark-mode .player-card {
+body.dark-mode .player-card,
+body.dark-mode .affiliate-card {
     background: #111 !important;
     color: #f1f1f1 !important;
 }
