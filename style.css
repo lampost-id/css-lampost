@@ -1110,7 +1110,8 @@ body.dark-mode .populer-side-title,
 body.dark-mode .populer-hero-title,
 body.dark-mode .populer-hero-desc,
 body.dark-mode .time,
-body.dark-mode .artist {
+body.dark-mode .artist,
+body.dark-mode .affiliate-title {
     color: #f1f1f1 !important;
 }
 
