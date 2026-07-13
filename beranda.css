@@ -612,6 +612,94 @@ h2 .card-text {
     }
 }
 
+    .top-floating-banner {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 900px;
+      max-width: 95%;
+      z-index: 9999;
+
+      border-radius: 0;
+      overflow: visible;
+
+      animation: bannerTop .45s ease;
+      transition: .35s;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .top-floating-banner a {
+      display: block;
+      width: 100%;
+    }
+
+    .top-floating-banner img {
+      display: block;
+      width: 100%;
+      height: auto;
+
+      border-radius: 0;
+
+      box-shadow: 0 15px 45px rgba(0, 0, 0, .28);
+    }
+
+    .top-banner-close {
+      position: relative;
+
+      margin-top: -1px;
+
+      width: 52px;
+      height: 30px;
+
+      border: none;
+      border-radius: 0 0 8px 8px;
+
+      background: #fff;
+      color: #000;
+
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      box-shadow: 0 8px 18px rgba(0, 0, 0, .18);
+
+      transition: .25s;
+    }
+
+    .top-banner-close:hover {
+      background: #ee4d2d;
+      color: #fff;
+    }
+
+    .top-floating-banner.hide {
+      transform: translate(-50%, -150%);
+    }
+
+    .top-banner-close i {
+      color: #000;
+      font-size: 18px;
+    }
+
+    @keyframes bannerTop {
+
+      from {
+        transform: translate(-50%, -120%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translate(-50%, 0);
+        opacity: 1;
+      }
+
+    }
+
 @media (max-width: 847px) {
     .berita-beranda {
         width: 60%;
