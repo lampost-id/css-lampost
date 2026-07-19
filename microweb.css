@@ -558,6 +558,10 @@
         transform: translateX(-50%);
     }
 
+    .info-microweb {
+        display: block;
+    }
+
     .ubl-buttom {
         display: block;
     }
