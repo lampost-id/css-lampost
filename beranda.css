@@ -856,4 +856,8 @@ h2 .card-text {
         display: none;
     }
 
+    .top-floating-banner {
+        max-width: 100%;
+    }
+
 }
