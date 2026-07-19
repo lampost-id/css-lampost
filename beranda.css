@@ -852,4 +852,9 @@ h2 .card-text {
         font-size: 13px;
     }
 
+    .breaking-news,
+    #berita-baru {
+        display: none;
+    }
+
 }
