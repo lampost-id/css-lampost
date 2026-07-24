@@ -10,7 +10,7 @@
     border-radius: 20px;
     overflow: hidden;
     padding: 25px;
-    background: #f5f5f5;
+    background: #000000;
 }
 
 .lingkar-bg {
@@ -18,7 +18,7 @@
     inset: -10px;
    background-image: url('https://lampost.co/index/image/axecutive2.jpeg');
     background-position: top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
