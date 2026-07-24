@@ -121,5 +121,6 @@
 @media (max-width: 847px) {
     .lingkar-bg {
         background-position: left;
+        background-size: cover;
     }
 }
