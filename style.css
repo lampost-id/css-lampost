@@ -1176,7 +1176,8 @@ body.dark-mode .search-modal-overlay {
 }
 
 body.dark-mode .search-modal-box,
-body.dark-mode .search-modal-form input {
+body.dark-mode .search-modal-form input,
+body.dark-mode .btn-toggle-bottom {
     background: #272727;
     color: #fff;
 }
