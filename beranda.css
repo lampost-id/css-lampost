@@ -11,6 +11,17 @@
     box-sizing: border-box;
 }
 
+.beranda-left {
+    padding: 10px;
+    flex: 1; 
+    min-width: 0; /* Kunci: Mencegah flex item melebar karena konten di dalamnya (seperti gambar) */
+    box-sizing: border-box; /* Memastikan padding 10px dihitung ke dalam lebar total, bukan menambah lebar */
+    position: sticky;
+    top: 10px;
+    overflow: hidden;
+
+}
+
 .hiburan,
 .opini {
     margin-bottom: 15px;
@@ -763,10 +774,6 @@ h2 .card-text {
     .container-beranda {
         padding: 15px 10px;
         display: block;
-    }
-
-    .berita-left {
-        display: none;
     }
 
     .berita-beranda {
