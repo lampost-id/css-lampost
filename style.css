@@ -16,10 +16,10 @@ html body {
     scroll-behavior: smooth;
 }
 
-/* Sembunyikan scrollbar untuk webkit (Chrome, Safari, Edge) */
-html body::-webkit-scrollbar {
-    display: none !important;
-}
+::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    }
 
 #backToTop {
     position: fixed;
