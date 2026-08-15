@@ -1,37 +1,23 @@
-html, body {
+html body {
     margin: 0 !important;
     padding: 0 !important;
     width: 100% !important;
-    min-height: 100vh !important; /* Gunakan min-height vh agar tinggi bisa memanjang mengikuti konten */
-    height: auto !important; /* Batalkan height 100% kaku yang mengunci scroll */
-    max-width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
     border: none !important;
     box-shadow: none !important;
+    background: #ffffff !important; /* Sesuaikan warna background jika gelap */
+    overflow-x: hidden !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
     font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
 }
 
-/* Pisahkan overflow-x ke html saja agar scroll vertikal (Y) di body tidak terkunci */
-html {
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-}
-
-body {
-    overflow-x: hidden !important;
-    overflow-y: visible !important;
-}
-
-/* Kunci utama agar font Montserrat tidak merusak layout mobile */
-*, *:before, *:after {
-    box-sizing: border-box !important;
-}
-
-/* Sembunyikan batang scrollbar visual (opsional) tanpa mematikan fungsi scroll-nya */
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
+/* Sembunyikan scrollbar di browser Webkit (Desktop) */
+html body::-webkit-scrollbar {
     display: none !important;
 }
 
@@ -1257,6 +1243,19 @@ body.dark-mode .load-more {
 }
 
 @media (max-width: 768px) {
+
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+        height: auto !important; /* Mengembalikan height agar scroll lancar di mobile */
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+        font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 
     .navbar-main {
         padding: 14px 15px;
