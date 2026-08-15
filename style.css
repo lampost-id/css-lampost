@@ -1,13 +1,19 @@
-html, body {
+html body {
     margin: 0 !important;
     padding: 0 !important;
-    width: 100%;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #ffffff !important; /* Sesuaikan warna background jika gelap */
     overflow-x: hidden !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
     font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
 }
 
 /* Pastikan semua elemen menghitung ukuran dengan padding & border */
