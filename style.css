@@ -839,14 +839,16 @@ h2.detail-title::before,
     padding: 10px calc((100% - 1200px) / 2);
     display: flex;
     gap: 10px;
-    align-items: flex-start;
+    align-items: flex-start; /* Sudah benar, agar tinggi flex item tidak dipaksa sama */
 }
 
 .gaya-hidup {
     flex: 1;
     padding: 10px;
+    position: -webkit-sticky; /* Dukungan browser Safari */
     position: sticky;
-    top: 0;
+    top: 20px; /* Berikan jarak 20px (atau sesuaikan dengan tinggi Navbar Anda jika ada, misal: top: 80px) */
+    align-self: flex-start; /* Memastikan elemen ini hanya setinggi kontennya sendiri, bukan setinggi parent */
 }
 
 .olahraga {
